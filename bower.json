@@ -1,0 +1,25 @@
+{
+  "name": "allen-doc-generator",
+  "version": "0.0.1",
+  "authors": [
+    "Allen Kung <mrgongxue@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.css"
+      ]
+    }
+  }
+}
